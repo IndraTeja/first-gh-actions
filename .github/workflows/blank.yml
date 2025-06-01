@@ -1,0 +1,10 @@
+name: First GH Actions workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: printing greetings
+        run: echo "Hello world!"
+      - name: printing goodbye
+        run: echo "Goodbye"
